@@ -21,7 +21,6 @@
 .image img {
   height: 100px;
   width: 180px;
-  /* margin-top: 15px; */
 }
 .login {
   display: flex;
@@ -316,6 +315,24 @@
 .lang a:hover {
   text-decoration: underline;
 }
+.plus {
+  background: #f5f6f7;
+  border: 1px solid #ccd0d5;
+  border-radius: 2px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.plus a {
+  color: #333;
+  font-weight: bold;
+}
+.plus img {
+  height: 10px;
+  width: 10px;
+}
+
 .liLang {
   color: #737373;
 }
