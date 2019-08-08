@@ -15,6 +15,7 @@
 }
 .image {
   float: left;
+  margin-left: 0px;
 }
 .image img {
   height: 65px;
@@ -61,7 +62,7 @@
 .anchor {
   margin-top: 3px;
   text-decoration: none;
-  color: white;
+  color: #9cb4d8;
 }
 .anchor:hover {
   text-decoration: underline;
@@ -270,11 +271,13 @@
   color: #666;
   margin-top: 33px;
   font-weight: bold;
-  font-size: 14px;
-  font-style: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  word-spacing: 1px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .paraG a {
   color: #385898;
+  font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
 .paraG a:hover {
@@ -282,26 +285,64 @@
 }
 .footer {
   width: 100%;
-  height: 200px;
+  /* height: 150px; */
 }
 .foot {
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 980px;
-  height: 180px;
+  height: 160px;
 }
 .lang {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   list-style: none;
   align-items: center;
+  font-size: 12px;
+  margin-bottom: 5px;
 }
 .lang li {
   margin-right: 15px;
 }
 .lang a {
   text-decoration: none;
+  color: #385898;
+}
+.lang a:hover {
+  text-decoration: underline;
+}
+.liLang {
+  color: #737373;
 }
 .line {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dddfe2;
+}
+.lang2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 12.5px;
+  flex-wrap: wrap;
+  width: 980px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.lang2 li {
+  padding-right: 4px;
+  line-height: 20px;
+  margin-right: 15px;
+}
+.lang2 a {
+  text-decoration: none;
+  color: #385898;
+}
+.lang2 a:hover {
+  text-decoration: underline;
+}
+.lang3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 22px;
+  font-size: 11px;
+  color: #737373;
 }
